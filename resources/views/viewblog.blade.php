@@ -34,10 +34,10 @@
 </nav>
     
 <div>
-@@foreach ($ as $item)
-    
-@endforeach
-</div>
+    @foreach ($posts as $item)
+    {{$posts->img_url}}
+    @endforeach
+    </div>
 
 
 
